@@ -1,0 +1,84 @@
+body{
+    margin:0;
+    padding:0;
+    background-image: url(./img/pexels-photo-1182338.jpeg);
+    font-family: "Times New Roman", Times, serif;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#container{
+    max-width: 350px;
+    margin: 0 auto;
+    margin-top: 30vh;
+    margin-bottom: 30vh;
+    background-color: gold;
+    border: 3px solid #ff1493;
+    padding: 55px ;
+    border-radius: 12px;
+    background-color: #f081bc;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.header{
+    line-height: 15%;
+    margin-top: -8px;
+    padding-left: 5px;
+    display: inline;
+    float:left;
+}
+.img{
+    float: left;
+}
+.sign{
+    font-size: 45px;
+    color:white;
+}
+.joinus{
+    color:white;
+}
+.form{
+    margin-top: 100px;
+    line-height: 30px;
+    padding-right: 20px;
+}
+input{
+    width:100%;
+    padding: 12px 10px;
+    border-radius: 8px;
+    border:none;
+    margin-bottom: 10px;
+}
+::placeholder {
+    color: pink;
+}
+
+.in{
+    color: white;
+}
+.bysignin{
+    color:white;
+    font-size: 15px;
+    font:lighter;
+}
+#submit{
+    padding: 12px 20px;
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+    color: black;
+    background-color: #fa2a99;
+    font-weight: 700;
+    cursor:pointer;
+}
+.signin{
+    text-align: center;
+    color: white;
+    font-weight: 900;
+}
+a{
+    color: #ff1493;
+}
+a:hover{
+    color: black;
+}
